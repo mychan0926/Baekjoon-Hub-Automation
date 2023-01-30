@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialog</class>
+ <widget class="QDialog" name="dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>625</width>
+    <height>327</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>625</width>
+    <height>327</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>625</width>
+    <height>327</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="whatsThis">
+   <string/>
+  </property>
+  <widget class="QWidget" name="gridWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>581</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QWidget" name="widget_2" native="true">
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>321</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>사전 설정</string>
+       </property>
+       <widget class="QPushButton" name="EP_button">
+        <property name="geometry">
+         <rect>
+          <x>56</x>
+          <y>20</y>
+          <width>201</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>백준 허브 크롬확장프로그램 적용</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="PW_Box">
+        <property name="geometry">
+         <rect>
+          <x>87</x>
+          <y>85</y>
+          <width>171</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="ID_Box">
+        <property name="geometry">
+         <rect>
+          <x>87</x>
+          <y>56</y>
+          <width>171</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>7</x>
+          <y>58</y>
+          <width>91</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Baekjoon ID</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>7</x>
+          <y>87</y>
+          <width>91</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Baekjoon PW</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="apply_button">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>55</y>
+          <width>41</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>적용</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>150</y>
+         <width>321</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>실행</string>
+       </property>
+       <widget class="QPushButton" name="programme_start_button">
+        <property name="geometry">
+         <rect>
+          <x>17</x>
+          <y>29</y>
+          <width>131</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>프로그램 실행</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="non_auto_button">
+        <property name="geometry">
+         <rect>
+          <x>167</x>
+          <y>29</y>
+          <width>131</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>백준 수동 로그인</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="non_auto_bool">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>57</y>
+          <width>131</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>수동 로그인 후 실행</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>12</y>
+         <width>241</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>만약, 백준 로그인시,</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>32</y>
+         <width>241</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>reCAPTCHA 시스템이 뜨는 경우,</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>52</y>
+         <width>241</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>백준 수동 로그인 후,</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>92</y>
+         <width>241</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&quot;프로그램 실행&quot;을 눌러주세요.</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>112</y>
+         <width>221</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0004;&quot;&gt;또한, 프로그램 실행 시 나오는&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>132</y>
+         <width>221</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0004;&quot;&gt;크롬 창은 프로그램이 종료되기 전까지&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>152</y>
+         <width>221</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0004;&quot;&gt;절대 닫지 마세요.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>358</x>
+         <y>211</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>예상 소요시간 :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="time_label">
+       <property name="geometry">
+        <rect>
+         <x>449</x>
+         <y>211</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>0 분 0 초</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>72</y>
+         <width>241</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>&quot;수동 로그인 후 실행&quot; 을 체크 한 후,</string>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="wait_time_setting">
+       <property name="geometry">
+        <rect>
+         <x>467</x>
+         <y>173</y>
+         <width>62</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="decimals">
+        <number>1</number>
+       </property>
+       <property name="singleStep">
+        <double>0.500000000000000</double>
+       </property>
+       <property name="value">
+        <double>5.500000000000000</double>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_14">
+       <property name="geometry">
+        <rect>
+         <x>367</x>
+         <y>173</y>
+         <width>111</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>페이지 이동시간 :</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>377</x>
+         <y>189</y>
+         <width>111</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>(기본값 추천)</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>581</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>571</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>정보</string>
+    </property>
+    <widget class="QPushButton" name="blog_button">
+     <property name="geometry">
+      <rect>
+       <x>478</x>
+       <y>12</y>
+       <width>91</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>제작자 블로그</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>376</x>
+       <y>15</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>제작자: 플레이스</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>15</y>
+       <width>351</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>본 프로그램은 백준허브 확장프로그램을 이용한 프로그램입니다.</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>blog_button</tabstop>
+  <tabstop>EP_button</tabstop>
+  <tabstop>ID_Box</tabstop>
+  <tabstop>PW_Box</tabstop>
+  <tabstop>apply_button</tabstop>
+  <tabstop>programme_start_button</tabstop>
+  <tabstop>non_auto_button</tabstop>
+  <tabstop>wait_time_setting</tabstop>
+  <tabstop>non_auto_bool</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
