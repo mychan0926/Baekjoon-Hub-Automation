@@ -2,6 +2,9 @@
 <br>
 <img src="https://user-images.githubusercontent.com/98321404/215512190-9f9ec73c-ffc5-4f92-aa82-b62c0e7f6813.png" width="150" height="150">
 <br>
+
+
+
 # !!! 현재는 릴리즈파일 설치만으로 작동하지 않습니다. 약간의 크롬 드라이버 코드수정이 필요합니다 !!!
 
 ## 제작 계기
