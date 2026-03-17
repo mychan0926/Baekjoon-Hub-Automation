@@ -22,7 +22,7 @@ outcome==1.2.0
 packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1673482170163/work
 pefile==2022.5.30
 pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1636257122734/work
-pyinstaller==5.7.0
+pyinstaller==6.15.0
 pyinstaller-hooks-contrib==2022.15
 pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1663846997386/work
 PyQt5==5.15.7
