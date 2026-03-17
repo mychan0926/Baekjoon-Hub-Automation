@@ -16,7 +16,7 @@ future==0.18.3
 h11==0.14.0
 idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1663625384323/work
 importlib-metadata @ file:///D:/bld/importlib-metadata_1653252990345/work
-lief==0.12.3
+lief==0.17.2
 msedge-selenium-tools==3.141.4
 outcome==1.2.0
 packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1673482170163/work
